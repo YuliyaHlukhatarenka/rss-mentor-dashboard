@@ -15,7 +15,7 @@ code {
 
 header {
   background-color: #282c34;
-  min-height: 15vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -29,7 +29,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-shrink:
+  margin: 0 auto;
 }
 
 table {
@@ -41,10 +41,14 @@ table, th, td {
 }
 
 .select-input {
-  width: 200px;
+  width: 250px;
   padding: 10px 0;
 }
 
 img {
   width: 10%;
+}
+
+.login-wrapper {
+  padding: 10px 0;
 }
